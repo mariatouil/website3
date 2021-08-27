@@ -1,0 +1,299 @@
+*{
+	margin:0;
+	padding:0;
+box-sizing:border-box;}
+a:active{
+border:3px dashed hsl(322, 100%, 66%);
+}
+body{
+background-color:#fff;
+font-family:sans-serif;}
+
+.first{
+background-image:url("bg-hero-desktop.svg");
+position:relative;
+margin-bottom:250px;
+background-repeat: no-repeat;
+background-color:hsl(193, 100%, 96%);
+height:800px;
+}
+.second,.Third,.Forth{
+background:white;
+width:1200px;
+height:420px;
+margin:40px 30px;
+border-radius:30px;
+box-shadow:2px 2px 5px 2px rgb(0 0 0 / 10%);}
+
+#try{
+	
+	text-decoration:none;
+	background:white;
+    border:1px solid #fff;
+	border-radius:60px;
+	padding:10px 50px;
+	color:hsl(192, 100%, 9%);
+	position:absolute;
+	right:70px;
+	top:50px;
+	box-shadow:0 2px 5px 0 rgb(0 0 0 / 20%);
+	
+	font-size:20px;
+}
+#try:hover,.started:hover,.free:hover{
+
+	opacity: .75;
+	
+}
+.img1{
+	width:50%;
+	position:absolute;
+	right:80px;
+top:190px;}
+.writen{
+	width:400px;
+	height:100%;
+	margin-left:120px;
+	position:relative;}
+	
+	
+	.writen2{
+	width:500px;
+	height:100%;
+	margin-right:80px;
+
+	float:right;}
+	
+	.title{
+		font-size:45px;
+	letter-spacing:1px;
+	line-height:60px;
+	margin-bottom:20px;}
+	.title1{
+		font-size:30px;
+	letter-spacing:1px;
+	line-height:20px;
+	margin-bottom:20px;
+	padding-top:150px}
+	.par1{
+		width:600px;
+	font-size:15px;
+	line-height:40px;
+	letter-spacing:1px;
+	font-weight:20px;}
+	.par2{
+	width:600px;
+	font-size:19px;
+	line-height:30px;
+	letter-spacing:1px;
+	font-weight:20px;
+	color:grey;
+	}
+	.par3{
+	
+	font-size:17px;
+	line-height:30px;
+	letter-spacing:1px;
+	font-weight:20px;
+	color:grey;
+	}
+	.img2{
+	width:30%;
+	position:absolute;
+	right:80px;
+bottom:-800px;
+}
+.img3{
+	height:50%;
+	
+	position:absolute;
+	left:120px;
+bottom:-1280px;
+}
+
+.img4{
+	width:30%;
+	
+	position:absolute;
+	right:80px;
+   bottom:-1700px;
+}
+
+
+	.started{
+		text-decoration:none;
+	background:hsl(322, 100%, 66%);
+    border:1px solid hsl(322, 100%, 66%);
+	border-radius:60px;
+	padding:10px 50px;
+	color:white;
+	position:absolute;
+	left:0px;
+	top:400px;
+	font-size:20px;
+}
+.free{
+		text-decoration:none;
+	background:hsl(322, 100%, 66%);
+    border:1px solid hsl(322, 100%, 66%);
+	border-radius:80px;
+	padding:15px 50px;
+	color:white;
+	position:absolute;
+	left:230px;
+	right:230px;
+	top:170px;
+	font-size:20px;
+	line-height:40px;
+	
+}
+		
+.logo{
+padding-top:50px;
+padding-left:90px;
+padding-bottom:140px;}
+
+.footer{
+	height:650px;
+	margin-top:400px;
+	color:white;
+background:hsl(192, 100%, 9%);
+position:relative;
+
+}
+.link{
+	position:absolute;
+	bottom:25px;
+	right:20px;
+}
+
+.fin{
+	position:absolute;
+	bottom:15px;
+	right:460px;
+	font-size:12px;
+	
+}
+#a2{
+text-decoration:underline;
+color:hsl(322, 100%, 66%);
+}
+.fab:hover{
+	border:1px solid hsl(322, 100%, 66%);
+	color:hsl(322, 100%, 66%);
+}
+.five{
+	background:white;
+	color:black;
+	width:800px;
+height:300px;
+border-radius:30px;
+position:absolute;
+top:-210px;
+left:225px;
+position:relative;
+	text-align:center;
+	box-shadow:0 5px 5px 5px rgb(0 0 0 / 20%);
+}
+.title2{
+	color:black;
+	padding-top:80px;
+	font-size:40px;
+}
+	
+.logo2{
+	filter: brightness(0) invert(1);
+	top:180px;
+	color:white;
+	position:absolute;
+	left:130px;
+    height:2.5rem;
+	
+	
+	
+
+	
+}
+.lists{
+	position:absolute;
+	top:230px;
+	
+}
+ul{ 
+   
+    padding-left:80px;
+	
+
+}
+	li{	
+		font-size:20px;
+		list-style-type:none;
+		
+		margin:30px;
+	}
+	a{  color:white;
+		text-decoration:none;
+	}
+	
+	.deux{
+	float:left;
+	padding-left:100px;
+	padding-top:-80px;
+	}
+	.trois{
+	float:left;
+	padding-left:250px;
+	padding-top:-80px;
+	}
+	.resaux{
+		padding-left:1000px;
+		padding-top:-80px;
+	}
+	.fa-facebook-f{
+		border:1px solid white;
+		border-radius:100%;
+	padding:10px 10px;
+	position:absolute;
+	top:250px;
+	right:300px;}
+.fa-instagram{
+	border:1px solid white;
+	padding:10px ;
+	border-radius:100%;
+	position:absolute;
+	top:250px;
+	right:250px;}
+	.fa-twitter{
+	border:1px solid white;
+	padding:10px ;
+	border-radius:100%;
+	position:absolute;
+	top:250px;
+	right:200px;}
+	
+	
+	
+/*responsive*/
+@media (max-width: 760px){
+  *{
+	margin:0;
+	padding:0;
+box-sizing:border-box;}
+a:active{
+border:3px dashed hsl(322, 100%, 66%);
+}
+body{
+background-color:#fff;
+font-family:sans-serif;}
+
+.first{
+background-image:url("bg-hero-mobile.svg");
+position:relative;
+margin-bottom:250px;
+background-repeat: no-repeat;
+background-color:hsl(193, 100%, 96%);
+height:800px;
+}
+	
+	
+  }
